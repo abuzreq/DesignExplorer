@@ -2030,6 +2030,9 @@
 
 
         window.onload = function () {
+            window.loadDataToDesignExplorer = loadDataToDesignExplorer;
+            window.loadDataToDesignExplorer = loadSetting;
+
             var isIE = /*@cc_on!@*/false || !!document.documentMode;
 
             if(isIE){
